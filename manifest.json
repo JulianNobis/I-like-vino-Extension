@@ -1,0 +1,9 @@
+{
+  "name": "I like vino",
+  "description": "Likes all insta posts from the best weindealer in austria",
+  "version": "1.0",
+  "manifest_version": 1,
+  "background": {
+    "service_worker": "background.js"
+  }
+}
