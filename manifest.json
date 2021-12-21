@@ -2,8 +2,12 @@
   "name": "I like vino",
   "description": "Likes all insta posts from the best weindealer in austria",
   "version": "1.0",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "background": {
-    "service_worker": "background.js"
-  }
+    "scripts": ["./background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "https://www.instagram.com/*"
+  ]
 }
